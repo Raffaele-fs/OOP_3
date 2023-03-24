@@ -11,7 +11,9 @@ public class Student {
     private Integer valuation;
 
     private static double counter=0;
+    Student(){
 
+    }
     Student(String name, int age, String scuola, String surname, Integer valuation) {//il nostro costruttore che verra' richiamato nell'Exercises
         System.out.println("Constructing name and age!");
         this.name = name;
