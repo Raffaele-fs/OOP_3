@@ -62,7 +62,6 @@ public class Exercises {
         String str = "the fox and the lazy dog saw another fox with another not lazy dog";
         List<String> words = Arrays.stream(str.split(" ")).toList();
         Map<String, Integer> wordCount = new HashMap<>();
-        Set<String> control= new HashSet<>();
         for(String word : words){
             wordCount.put(word,0);
         }
