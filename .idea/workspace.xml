@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63061f89-e171-4e0d-a954-3c31379c5e91" name="Changes" comment="add file">
-      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_1/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_2/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileTesto/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydirectory/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ContoBancario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/JavaFirsCheckpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_4/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_5/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_6/Exercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_7/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaadvanced/_7/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new package.iml" beforeDir="false" afterPath="$PROJECT_DIR$/new package.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +47,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -50,13 +63,13 @@
       <recent name="javabasics._5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javaadvanced._2.Exercises">
-    <configuration name="javaadvanced._1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaadvanced._1.Exercises" />
+  <component name="RunManager" selected="JUnit.CalculatorTest">
+    <configuration name="JavaFirsCheckpoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.JavaFirsCheckpoint" />
       <module name="new package" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaadvanced._1.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaadvanced._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaadvanced._2.Exercises" />
+    <configuration name="javaadvanced._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._4.Exercises" />
       <module name="new package" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaadvanced._2.*" />
+          <option name="PATTERN" value="javaadvanced._4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop.exercises._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop.exercises._2.Exercises" />
+    <configuration name="javaadvanced._5.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._5.Exercises" />
       <module name="new package" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop.exercises._2.*" />
+          <option name="PATTERN" value="javaadvanced._5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop.exercises._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop.exercises._3.Exercises" />
+    <configuration name="javaadvanced._6.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._6.Exercises" />
       <module name="new package" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop.exercises._3.*" />
+          <option name="PATTERN" value="javaadvanced._6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +116,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop.exercises._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop.exercises._4.Exercises" />
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="new package" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop.exercises._4.*" />
+          <option name="PATTERN" value="javaadvanced._7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="javaadvanced._7" />
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._7.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javaadvanced._2.Exercises" />
-        <item itemvalue="Application.javaadvanced._1.Exercises" />
-        <item itemvalue="Application.javaoop.exercises._4.Exercises" />
-        <item itemvalue="Application.javaoop.exercises._3.Exercises" />
-        <item itemvalue="Application.javaoop.exercises._2.Exercises" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.javaadvanced._6.Exercises" />
+        <item itemvalue="Application.javaadvanced._4.Exercises" />
+        <item itemvalue="Application.JavaFirsCheckpoint" />
+        <item itemvalue="Application.javaadvanced._5.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +171,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679659234407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add file">
+      <created>1680080026676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680080026676</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add file">
+      <created>1680106979774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680106979774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add file">
+      <created>1680164357575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680164357575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
