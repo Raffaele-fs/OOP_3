@@ -11,6 +11,10 @@ class Animal {
         this.weight = weight;
     }
 
+    public Animal(){
+
+    }
+
     public double getHeight() {
         return height;
     }

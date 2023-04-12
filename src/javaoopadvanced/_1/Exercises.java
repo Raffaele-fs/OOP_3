@@ -59,7 +59,7 @@ public class Exercises {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
-        Animal animal=new Animal(10,20);
+        Animal animal=new Animal();
         Fish fish=new Fish(0.5,0.3,"pagliaccio");
         Bird bird=new Bird(0.4,0.3,0.7);
         Dog dog=new Dog(1,20,"pinscher");
