@@ -1,17 +1,19 @@
 package proggettopersonale;
 
+import java.util.ArrayList;
+
 public class Libreria {
     private String nome;
     private String type;
 
-    private Integer scaffale;
 
+    public Libreria(){
 
-
-    public Libreria(String nome, String type, Integer scaffale){
+    }
+    public Libreria(String nome, String type){
         this.nome=nome;
         this.type=type;
-        this.scaffale = scaffale;
+
 
     }
 
@@ -29,11 +31,4 @@ public class Libreria {
         this.type = type;
     }
 
-    public Integer getScaffale() {
-        return scaffale;
-    }
-
-    public void setScaffale(Integer scaffale) {
-        this.scaffale = scaffale;
-    }
 }
