@@ -83,7 +83,7 @@ public class JavaFirstCheckpointRecupero {
         int contatorearrB=-1;
         for (int i = 0; i < input.length; i++) {
             if (input[i] % k == 0) {
-                arrB[contatorearrB+1] = input[i]/k;
+                arrB[contatorearrB+1] = input[i];
                    contatorearrB++;
 
             }
