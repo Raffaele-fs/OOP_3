@@ -1,0 +1,24 @@
+      CREATE TABLE STUDENTE (
+  VIVO TIMESTAMP DEFAULT NOW(),
+  NAME VARCHAR(255)
+);
+
+    INSERT INTO STUDENTE (COMPLEANNO,NAME)
+    VALUES (DATE_ADD(NOW(), 'RAFFAELE');
+
+        INSERT INTO STUDENTE (COMPLEANNO,NAME)
+    VALUES (DATE_ADD(NOW(), 'VINCENZO');
+
+SELECT CONCAT('LO STUDENTE',NAME,'NATO IL', COMPLEANNO) AS ALIAS_NAME, #concatena le 2 colonne con commenti affianco
+LOWER(NAME) AS LOWERCASE_NAME, #colonna in minuscole
+UPPER(NAME) AS UPPERCASE_NAME, #colonna in maiuscole
+TRIM(NAME) AS TRIM_NAME, # rimuove spazi inusati
+LENGHT(NAME) AS LENGHT_NAME, #controlla la lunghezza della stringa
+SUBSTR(NAME, 5) AS FIRST_FIVE_LETTERS_OF_NAME, # toglie lettere dalla stringa dipendente da quanti numeri gli assegni
+ROUND(VIVO, DECIMAL_PLACES), # arrotonda i numeri decimali
+DATE_ADD(VIVO, INTERVAL 9 MONTH), #aggiunta di tempo
+DATE_SUB(VIVO, INTERVAL 9 MONTH), #sottrae tempo
+FORMAT(NAME, FORMAT_STRING), # formattazione della colonna
+
+SELECT DATE_ADD(DATE_ADD(NOW(), INTERVAL 7 DAY), INTERVAL 2 MONTH) AS BIRTHDAY_DATE,
+       DATE_FORMAT(DATE_ADD(DATE_ADD(NOW(), INTERVAL 7 DAY), INTERVAL 2 MONTH), '%Y-%m-%d 00:00:00') AS BIRTHDAY_DATE_MIDNIGHT;
