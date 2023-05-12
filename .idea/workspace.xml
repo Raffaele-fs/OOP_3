@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63061f89-e171-4e0d-a954-3c31379c5e91" name="Changes" comment="add file">
-      <change afterPath="$PROJECT_DIR$/src/colori/TerminalColorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercitazioni/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercitazioni/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercitazioni/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercitazioni/Workman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/ESERCIZO3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682071074879</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add file">
+      <created>1683880809145</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683880809145</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add file">
+      <created>1683883245183</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683883245183</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
