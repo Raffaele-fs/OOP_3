@@ -1,0 +1,30 @@
+select * from customers;
+
+CREATE TABLE Customers (
+ customer_id INT NOT NULL AUTO_INCREMENT,
+ first_name VARCHAR(255) NOT NULL,
+ last_name VARCHAR(255) NOT NULL,
+ email VARCHAR(255) NOT NULL,
+ PRIMARY KEY (customer_id)
+);
+
+
+INSERT INTO Customers (first_name, last_name, email)
+VALUES ('raffaello', 'mitro', 'mitro@boh.com');
+
+INSERT INTO Customers (first_name, last_name, email)
+VALUES ('raffaella', 'lola', 'lola@boh.com');
+
+UPDATE Customers
+SET email = 'cambio@boh.com'
+WHERE customer_id = 1;
+
+DELETE FROM Customers
+WHERE customer_id = 2;
+
+TRUNCATE TABLE Customers;
+
+#question 6= customer_id , avente l'id e INT NOT NULL AUTO_INCREMENT che puo essere dato solo a una chiave primaria
+#question 7= product_name, e' il migliore tra le colonne, anche se puo riscontrare problemi se si trovano 2 prodotti dello stesso nome
+#question 8= order_id , avente l'id e INT NOT NULL AUTO_INCREMENT che puo essere dato solo a una chiave primaria, deve essere alter TABLE ORDERS ADD CONSTRAINT PRIMARY KEY(order_id)
+#question 9= order_id , avente l'id e INT NOT NULL AUTO_INCREMENT che puo essere dato solo a una chiave primaria, deve essere alter TABLE Product_Orders  ADD CONSTRAINT PRIMARY KEY(order_id)
