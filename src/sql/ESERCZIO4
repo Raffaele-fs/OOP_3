@@ -1,0 +1,15 @@
+select * from ingredient;
+
+alter table ingredient
+add constraint unique (NAME)
+add constraint unique (CONTAINS_LACTOSE)
+add constraint unique (VEGETARIAN)
+add constraint unique (VEGAN)
+add constraint unique (GLUTEN_FREE)
+modify NAME VARCHAR(255) not null;
+
+insert into ingredient (NAME,CONTAINS_LACTOSE,VEGETARIAN,VEGAN,GLUTEN_FREE)
+VALUES('ingrediente segreto',1,0,1,1);
+
+delete from ingredient
+where name is null;
